@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./themes.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="phone-device">
+        <div id="application">
+            <h3 class="header">Modals</h3>
+            <div class="wrapper">
+                <button onclick="selectorNormal()">Selector</button>
+                <button onclick="selectorAsync()">Selector (async)</button>
+                <button onclick="promptNormal()">Prompt</button>
+                <button onclick="promptAsync()">Prompt (async)</button>
+            </div>
+            <h3 class="header">Take & Request</h3>
+            <div class="wrapper">
+                <button onclick="selectCamItem()">Take image from camera</button>
+                <button onclick="selectPhotoMenu()">Take image from gallery</button>
+                <button onclick="openSelectGifMenu()">Take gif</button>
+                <button onclick="requestMoneyModal()">Request Money</button>
+            </div>
+            <h3 class="header">Notification</h3>
+            <div class="wrapper">
+                <button onclick="pushNotification()">Push notification</button>
+                <button onclick="pushNotificationOld()">Push notification (old)</button>
+            </div>
+            <h3 class="header">Others</h3>
+            <div class="wrapper">
+                <button onclick="openImage()">Open a image</button>
+                <button onclick="rotatePhone()">Rotate Phone</button>
+                <button onclick="setupCall()">Call</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+        <script src="app.js"></script>
+    </section>
+</body>
+
+</html>

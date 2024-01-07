@@ -1,0 +1,84 @@
+#phone-device {
+    will-change: transform;
+    left: unset;
+    right: 3%;
+    top: unset;
+    position: absolute;
+    display: inline;
+    padding: 1.5rem;
+    background: #000;
+    border-radius: 60px;
+    width: 42rem;
+    height: 88.5rem;
+    bottom: 0px;
+    box-sizing: content-box;
+    transform-origin: bottom right;
+    margin-bottom: 2rem;
+    user-select: none;
+    transition: all .5s ease-in-out;
+    image-rendering: crisp-edges;
+    box-shadow: rgb(57, 51, 77) 0px 0px 0.1em 0.25em, rgb(211, 205, 228) 0px 0px 0px 0.4em;
+}
+
+#phone-device #application {
+    border-radius: 40px;
+    height: 100%;
+}
+
+#application::-webkit-scrollbar {
+    display: none;
+}
+
+#application {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    visibility: visible;
+    background-color: var(--main-background-color);
+    padding: 0rem 12px 5rem 12px;
+    overflow-y: auto;
+}
+
+.header {
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+a {
+    color: var(--text-color);
+}
+
+.wrapper {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--dark-background-color);
+    border-radius: 12px;
+    gap: 12px;
+}
+
+.wrapper button {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.wrapper button:last-child {
+    border-bottom: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    color: var(--text-color);
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+button:focus {
+    outline: none;
+}
